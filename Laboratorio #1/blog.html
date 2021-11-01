@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Blog</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Press+Start+2P&family=Signika+Negative:wght@300&display=swap"
+        rel="stylesheet">
+
+    <style>
+        /* Estilo Titulo Principal */
+        h1 {
+            text-align: center;
+            font-family: 'Press Start 2P';
+            font-size: 40px;
+            color: rgb(255, 230, 0);
+        }
+
+        .subtitulo {
+            text-align: center;
+            font-family: 'Press Start 2P';
+            font-size: 23px;
+            color: rgb(255, 230, 0);
+        }
+
+        /* Estilo Titulo Secundario */
+        h2 {
+            font-family: 'Press Start 2P';
+            color: rgb(11, 72, 255);
+            background-color: black;
+        }
+
+        /* Formato Parrafos*/
+        p {
+            font-family: 'Signika Negative';
+            text-align: justify;
+            color: rgb(11, 72, 255);
+            background-color: black;
+        }
+
+        /* Estilos Titulo Articulo*/
+        #i1 {
+            font-family: 'Press Start 2P';
+            font-size: 23px;
+            color: rgb(45, 97, 253);
+            background-color: black;
+        }
+
+        #i2 {
+            font-family: 'Press Start 2P';
+            font-size: 23px;
+            color: rgb(255, 230, 0);
+            background-color: black;
+        }
+
+        #i3 {
+            font-family: 'Press Start 2P';
+            font-size: 23px;
+            color: red;
+            background-color: black;
+        }
+
+        .contenedor {
+            overflow: hidden
+        }
+
+        .item {
+            float: left;
+            margin-right: 21px;
+        }
+
+        /* Estilo Imagenes */
+        .obi {
+            border: 5px solid rgb(255, 230, 0);
+            transition: 0.1s ease-in-out;
+        }
+
+        .obi:hover {
+            border: 5px solid red;
+        }
+
+        /* Estilo Descripcion Imagen*/
+        #cap {
+            text-align: center;
+            color: red;
+            background-color: black;
+        }
+
+        /* Estilo Footer/Licencia*/
+        footer {
+            font-family: 'Signika Negative';
+            background-color: rgb(141, 141, 141);
+            line-height: 2.5;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        /* Imagen de Background */
+        body {
+            background-image: url(/imagenes/CieloEstrellas.png);
+            margin-left: 1.2cm;
+            margin-right: 1.2cm;
+        }
+
+        /* Estilos de Letras */
+        * {
+            font-family: 'Press Start 2P', cursive;
+            font-family: 'Orbitron', sans-serif;
+            font-family: 'Signika Negative', sans-serif;
+        }
+    </style>
+</head>
+
+<body style="background-color:#000000">
+    <h1>STAR WARS</h1>
+    <h2 class="subtitulo">UN PASEO ALREDEDOR DE LAS GALAXIAS</h2>
+    <br>
+
+    <section>
+        <h2>ACERCA DEL AUTOR</h2>
+        <p>¡Bienvenido a Star Wars Blog! Mi nombre es Mónica Castillo y
+            hablaré sobre una de las de las franquicias más adoradas por
+            el público: Star Wars. Star Wars consta de películas, series,
+            comics, videojuegos, entre otras cosas. Es caracterizado por
+            la creatividad que hay detrás de sus obras y por saber cómo
+            ganarse el corazón de los fans. En mi blog estaré compartiendo
+            diferentes artículos sobre las series, películas y personajes
+            de esta franquicia, con el propósito de ayudarles a convertirse
+            en unos expertos en Star Wars. </p>
+        <br>
+    </section>
+
+    <article>
+        <div style="vertical-align: middle;" class="contenedor">
+            <div>
+                <h2 class="item" id="i1">JEDI</h2>
+                <h2 class="item" id="i2">vs</h2>
+                <h2 class="item" id="i3">SITH</h2>
+            </div>
+        </div>
+        <p>A</p>
+        <p>B</p>
+        <center>
+            <img class="obi" width="400" height="225" onmouseout="src='/imagenes/ObiWanM.jpg';"
+                onmouseover="src='/imagenes/MaulObi.jpg';" src='/imagenes/ObiWanM.jpg' />
+            <p id="cap">Obi Wan Kenobi, legendario maestro jedi.</p>
+            <!-- <a href="https://www.flickr.com/photos/157266234@N05/31412637207">"Obi-Wan Kenobi"</a><span> by <a href="https://www.flickr.com/photos/157266234@N05">Omegapepper</a></span> is licensed under <a href="https://creativecommons.org/licenses/by-nc/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY-NC 2.0</a><a href="https://creativecommons.org/licenses/by-nc/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=8a832ac4-e62a-419c-b322-1ace2e09e520" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-nc_icon.svg" /></a></p> <br /> -->
+            <!-- <a href="https://www.flickr.com/photos/92090133@N04/40767168545">"75537 Darth Maul"</a><span> by <a href="https://www.flickr.com/photos/92090133@N04">Brickset</a></span> is licensed under <a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" style="margin-right: 5px;">CC BY 2.0</a><a href="https://creativecommons.org/licenses/by/2.0/?ref=ccsearch&atype=html" target="_blank" rel="noopener noreferrer" style="display: inline-block;white-space: none;margin-top: 2px;margin-left: 3px;height: 22px !important;"><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc_icon.svg?image_id=d14804d7-8064-4bf7-8faa-b25326df8f47" /><img style="height: inherit;margin-right: 3px;display: inline-block;" src="https://search.creativecommons.org/static/img/cc-by_icon.svg" /></a></p>-->
+        </center>
+        <br>
+    </article>
+
+    <footer>Este trabajo está bajo una <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/">licencia
+            de Creative Commons Reconocimiento-NoComercial 4.0 Internacional</a>. 
+    </footer>
+    <br>
+
+</body>
+
+</html>
